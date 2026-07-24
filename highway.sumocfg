@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="highway.net.xml"/>
+        <route-files value="mixed_traffic.rou.xml"/>
+    </input>
+    <time>
+        <step-length value="0.1"/>
+        <end value="600"/>
+    </time>
+</configuration>

@@ -1,0 +1,9 @@
+<routes>
+    <vType id="CAV" accel="2.6" decel="4.5" length="5.0" minGap="2.5" maxSpeed="33.33" carFollowModel="CACC"/>
+    <vType id="HDV" accel="2.6" decel="4.5" length="5.0" minGap="2.5" maxSpeed="33.33" carFollowModel="Krauss"/>
+
+    <route id="highway_route" edges="highway"/>
+
+    <flow id="flow_cav" type="CAV" route="highway_route" begin="0" end="6000" vehsPerHour="450" departLane="best" departSpeed="max"/>
+    <flow id="flow_hdv" type="HDV" route="highway_route" begin="0" end="6000" vehsPerHour="4050" departLane="best" departSpeed="max"/>
+</routes>
