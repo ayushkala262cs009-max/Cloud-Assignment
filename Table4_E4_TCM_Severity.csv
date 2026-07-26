@@ -1,0 +1,17 @@
+Condition,Burst_Bin,N_Windows,ADE (m),ADE Std
+Baseline 1: Zero-fill,0 steps,545,43.261,24.213
+Baseline 1: Zero-fill,1-2 steps,1068,55.205,41.134
+Baseline 1: Zero-fill,3-5 steps,837,85.618,77.392
+Baseline 1: Zero-fill,6+ steps,235,119.007,107.17
+Baseline 5: Spline Interpolation,0 steps,545,43.006,23.983
+Baseline 5: Spline Interpolation,1-2 steps,1068,43.635,25.124
+Baseline 5: Spline Interpolation,3-5 steps,837,43.252,24.718
+Baseline 5: Spline Interpolation,6+ steps,235,44.105,24.291
+Condition B: Channel 1 Only,0 steps,545,31.805,20.656
+Condition B: Channel 1 Only,1-2 steps,1068,42.067,39.884
+Condition B: Channel 1 Only,3-5 steps,837,72.883,84.669
+Condition B: Channel 1 Only,6+ steps,235,90.205,108.458
+Condition C: Dual-Channel (Proposed),0 steps,545,31.805,20.656
+Condition C: Dual-Channel (Proposed),1-2 steps,1068,31.418,20.174
+Condition C: Dual-Channel (Proposed),3-5 steps,837,31.71,19.885
+Condition C: Dual-Channel (Proposed),6+ steps,235,28.931,20.061

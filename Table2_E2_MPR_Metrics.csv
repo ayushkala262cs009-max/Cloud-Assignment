@@ -1,0 +1,22 @@
+Condition,Penetration (%),ADE (m),ADE Std,FDE (m),FDE Std
+Baseline 1: Zero-fill,10,65.182,61.543,71.339,65.698
+Baseline 2: Forward-fill,10,43.285,24.507,44.801,28.51
+Baseline 3: Mean-fill (Local),10,43.884,25.071,45.761,29.247
+Baseline 4: Linear Interpolation,10,43.22,24.448,44.68,28.435
+Baseline 5: Spline Interpolation,10,43.156,24.35,44.573,28.324
+Condition B: Channel 1 Only,10,50.716,61.614,53.374,65.278
+Condition C: Dual-Channel (Proposed),10,32.115,19.676,33.557,21.948
+Baseline 1: Zero-fill,20,67.845,64.639,73.972,68.733
+Baseline 2: Forward-fill,20,43.518,24.874,45.3,28.918
+Baseline 3: Mean-fill (Local),20,44.113,25.571,46.197,29.838
+Baseline 4: Linear Interpolation,20,43.465,24.803,45.176,28.833
+Baseline 5: Spline Interpolation,20,43.429,24.699,45.11,28.719
+Condition B: Channel 1 Only,20,53.803,66.077,56.767,69.851
+Condition C: Dual-Channel (Proposed),20,31.37,20.188,33.015,22.505
+Baseline 1: Zero-fill,30,55.375,75.63,62.817,80.321
+Baseline 2: Forward-fill,30,21.055,26.375,26.644,34.399
+Baseline 3: Mean-fill (Local),30,22.99,26.628,28.642,34.709
+Baseline 4: Linear Interpolation,30,20.949,26.426,26.534,34.391
+Baseline 5: Spline Interpolation,30,20.848,26.563,26.414,34.469
+Condition B: Channel 1 Only,30,47.185,78.353,49.99,81.862
+Condition C: Dual-Channel (Proposed),30,10.151,17.967,10.937,19.205

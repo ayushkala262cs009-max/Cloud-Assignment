@@ -1,0 +1,8 @@
+Condition,ADE (m),ADE Std,FDE (m),FDE Std
+Baseline 1: Zero-fill (No Imputation),67.845,64.639,73.972,68.733
+Baseline 2: Forward-fill,43.518,24.874,45.3,28.918
+Baseline 3: Mean-fill (Local),44.113,25.571,46.197,29.838
+Baseline 4: Linear Interpolation,43.465,24.803,45.176,28.833
+Baseline 5: Spline Interpolation,43.429,24.699,45.11,28.719
+Condition B: Channel 1 Only,53.803,66.077,56.767,69.851
+Condition C: Dual-Channel (Proposed),31.37,20.188,33.015,22.505

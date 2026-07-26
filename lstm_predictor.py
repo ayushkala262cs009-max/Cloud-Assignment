@@ -187,8 +187,9 @@ def train_lstm(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
     print("=" * 60)
     print(f"TRAINING COMPLETE. Best Val Loss: {best_val_loss:.5f}")
     print("=" * 60)
-    
-    def load_lstm(path: str, device: str = 'cpu') -> LSTMPredictor:
+        
+def load_lstm(path: str, device: str = 'cpu') -> LSTMPredictor:
+    """Load a saved LSTMPredictor with scalers correctly restored."""
     model = LSTMPredictor(
         input_dim=7, hidden_dim=128, num_layers=2,
         scaler_X_mean=torch.zeros(7),

@@ -1,0 +1,7 @@
+import numpy as np
+data = np.load('data_corrupted/penetration_20/run_seed_17.npz', allow_pickle=True)
+X_corr = data['X_corrupted']
+X_ch1 = data['X_ch1_imputed']
+print("Cols 0-3 identical between X_corrupted and X_ch1_imputed:",
+      np.array_equal(np.nan_to_num(X_corr[:,:,0:4]), np.nan_to_num(X_ch1[:,:,0:4])))
+data.close()
