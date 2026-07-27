@@ -1,0 +1,13 @@
+Condition,Leader_Bin,N_Windows,ADE (m),ADE Std
+Baseline 1: Zero-fill,CAV,42,76.647,100.185
+Baseline 1: Zero-fill,HDV,2627,67.731,63.933
+Baseline 1: Zero-fill,none,16,63.466,58.964
+Baseline 5: Spline Interpolation,CAV,42,25.259,14.52
+Baseline 5: Spline Interpolation,HDV,2627,43.68,24.685
+Baseline 5: Spline Interpolation,none,16,49.908,29.138
+Condition B: Channel 1 Only,CAV,42,73.012,100.269
+Condition B: Channel 1 Only,HDV,2627,53.437,65.376
+Condition B: Channel 1 Only,none,16,63.466,58.964
+Condition C: Dual-Channel (Proposed),CAV,42,25.747,15.069
+Condition C: Dual-Channel (Proposed),HDV,2627,31.347,20.129
+Condition C: Dual-Channel (Proposed),none,16,49.888,29.147
