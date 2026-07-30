@@ -1,0 +1,15 @@
+Condition,Regime,ADE (m),ADE Std,FDE (m),FDE Std
+Baseline 1: Zero-fill,HighD (Free-Flow),191.579,49.275,324.28,62.462
+Baseline 1: Zero-fill,HighD (Congested),128.238,46.649,212.463,65.98
+Baseline 2: Forward-fill,HighD (Free-Flow),212.416,38.74,347.249,51.854
+Baseline 2: Forward-fill,HighD (Congested),144.264,42.189,232.093,58.09
+Baseline 3: Mean-fill (Local),HighD (Free-Flow),214.568,39.21,349.373,52.381
+Baseline 3: Mean-fill (Local),HighD (Congested),145.173,42.543,232.95,58.553
+Baseline 4: Linear Interpolation,HighD (Free-Flow),212.136,38.719,346.951,51.818
+Baseline 4: Linear Interpolation,HighD (Congested),144.101,42.132,231.932,58.029
+Baseline 5: Spline Interpolation,HighD (Free-Flow),212.056,39.084,346.879,52.086
+Baseline 5: Spline Interpolation,HighD (Congested),143.987,42.073,231.826,57.967
+Condition B: Channel 1 Only,HighD (Free-Flow),189.92,51.724,332.452,68.604
+Condition B: Channel 1 Only,HighD (Congested),118.851,46.551,204.003,70.977
+Condition C: Dual-Channel (Proposed),HighD (Free-Flow),223.83,47.059,373.679,59.775
+Condition C: Dual-Channel (Proposed),HighD (Congested),149.723,60.567,243.435,78.974
