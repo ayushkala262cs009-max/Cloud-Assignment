@@ -45,7 +45,7 @@ If any determinate calibration criterion fails, the runner marks `branch_b_requi
 ## Tests
 
 ```bash
-python -m pytest tests -q
+python -m unittest discover -s tests -v
 ```
 
 Tests cover metric correctness, CV behavior, sigma-ratio criterion behavior (including `n<200` inconclusive), matched-control structure, and GARNN temporal branch tensor behavior.
